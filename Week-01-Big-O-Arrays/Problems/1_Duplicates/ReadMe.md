@@ -17,6 +17,8 @@ Output: true
 Input: nums = [1, 2, 3, 4]
 Output: false
 
+```
+
 ## Hints
 
 ```text
@@ -24,7 +26,11 @@ Output: false
   2. Is there a way to check if an element is a duplicate without comparing it to every other element? Maybe there's a data structure that is useful here.
   3. We can use a hash data structure like a hash set or hash map to store elements we've already seen. This will allow us to check if an element is a duplicate in constant time.
 
-Given: 
+```
+
+## Given: 
+```
 class Solution:
     def hasDuplicate(self, nums: List[int]) -> bool:
+```
 
