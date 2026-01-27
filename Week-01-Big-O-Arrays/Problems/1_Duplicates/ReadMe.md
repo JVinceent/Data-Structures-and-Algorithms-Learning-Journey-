@@ -1,16 +1,25 @@
 
 Credits: Neet Code
 
-Given an integer array nums, return true if any value appears more than once in the array, otherwise return false.
+# Contains Duplicate
 
-Example: 
-  Input: nums = [1, 2, 3, 3]
-  Output: true
+**Credits:** Neet Code
 
-  Input: nums = [1, 2, 3, 4]
-  Output: false
+## Problem Description
+Given an integer array `nums`, return `true` if any value appears more than once in the array, otherwise return `false`.
 
-Hints:
+## Example
+
+```text
+Input: nums = [1, 2, 3, 3]
+Output: true
+
+Input: nums = [1, 2, 3, 4]
+Output: false
+
+## Hints
+
+```text
   1. A brute force solution would be to check every element against every other element in the array. This would be an O(n^2) solution. Can you think of a better way?
   2. Is there a way to check if an element is a duplicate without comparing it to every other element? Maybe there's a data structure that is useful here.
   3. We can use a hash data structure like a hash set or hash map to store elements we've already seen. This will allow us to check if an element is a duplicate in constant time.
@@ -18,3 +27,4 @@ Hints:
 Given: 
 class Solution:
     def hasDuplicate(self, nums: List[int]) -> bool:
+
