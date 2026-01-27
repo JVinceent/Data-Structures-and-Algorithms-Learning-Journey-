@@ -1,0 +1,15 @@
+Big O Notation - analyze the time complexities and space complexities
+
+Time complexities - the amount of time an algorithm executes as the input of data grows
+Space Complexities - is a measure of the total memory (space) an algorithm requires to run to completion, relative to its input size
+
+
+4 common types of Notations
+  1. O(1) - The time complexities remain even if the input size grows. This is the most efficient among the 4
+  2. O(n) - The runtime and input time grows proportionaly. You have to navigate each elements
+  3. O(n^2) - The slowest as you have to navigate the structure nth times. 
+  4. O(log n) - How many times can you cut the value size n into two until it is equals 1. 2^x = n, where x = log 2 n
+
+  
+
+  
