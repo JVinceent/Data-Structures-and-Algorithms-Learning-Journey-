@@ -1,5 +1,4 @@
-# Contains Duplicate
-
+# TWO SUM
 **Credits:** Neet Code
 
 ## Problem Description
