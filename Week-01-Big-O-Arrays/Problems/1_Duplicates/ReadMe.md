@@ -1,6 +1,3 @@
-
-Credits: Neet Code
-
 # Contains Duplicate
 
 **Credits:** Neet Code
