@@ -1,6 +1,17 @@
-ARRAY
+ARRAY - stores a collection of elements (values or variables) of the same data type in contiguous memory locations
 
+Memory - known as ram, temporarily holds data. This is where elements of array are stored
+Storage - known as rom, permanently holds data.
 
-        dsd
-dsd
-ddfd dsad							
+Characteristics of an array
+  1. Contiguous Memory: Elements are stored sequentially in memory, which allows for fast, direct access to any element via its index.
+  2. Homogeneous Elements: Typically, all elements in an array must be of the same data type (e.g., all integers, all strings).
+  3. Fixed Size: Traditional arrays have a predefined size, though many modern programming languages offer dynamic arrays that resize automatically.
+  4. Index-Based Access: Elements are accessed using an index, usually starting from up to , where is the number of elements.
+  5. Dimensions: Arrays can be one-dimensional (a simple list), two-dimensional (a table or matrix), or multi-dimensional. 
+
+Time complexities
+  - Accessing and inserting = O(1)
+  - Inserting and deleting = O(n) 
+
+Note: the time complexities still depends on the command used.
