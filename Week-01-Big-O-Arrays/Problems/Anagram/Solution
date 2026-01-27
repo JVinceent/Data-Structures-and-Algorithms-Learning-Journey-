@@ -1,0 +1,25 @@
+#Sorting = O(log n)
+      class Solution:
+          def isAnagram(self, s: str, t: str) -> bool:
+              if len(s) != len(t):
+                  return False
+              
+              return sorted(s) == sorted(t)
+
+#introduction to hashmap
+
+# Hashmap - Uses dictionaries or hash tables to count character frequencies
+      class Solution:
+          def isAnagram(self, s: str, t: str) -> bool:
+              if len(s) != len(t):
+                  return False
+              
+              countS, countT = {}, {}
+      
+              for i in range(len(s)):
+                  countS[s[i]] = 1 + countS.get(s[i], 0)
+                  countT[t[i]] = 1 + countT.get(t[i], 0)
+      
+              return countS == countT
+
+#Learned Hashmapping and the use of .get() in this situation
